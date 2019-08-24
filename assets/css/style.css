@@ -1,0 +1,15 @@
+.header1{
+    background-color: #34495E;
+}
+body{
+    background-color: #e3e3e3;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-fundo{
+    background-color: #2C3E50 !important
+}
+
+.titulo-color{
+    color: #A7A7A7;
+    text-align: center
+}
