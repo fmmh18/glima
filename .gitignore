@@ -1,0 +1,7 @@
+# CakePHP 3
+
+/vendor/* 
+/logs/*
+!/logs/empty
+.env
+ 
