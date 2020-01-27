@@ -6,12 +6,11 @@ use app\model\infoModel;
 
 class Index extends Controller
 {
-    public function index()
+    public static function index()
     {
         $infos = new infoModel();
-
         $info = $infos->detail_info();
-
+         
         return self::view('home/index',['infos'=>$info]);
     }
 }

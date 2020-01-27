@@ -1,5 +1,6 @@
 <?php
 
+
 require __DIR__ . '/vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
@@ -13,5 +14,7 @@ if(getenv('APP_DEBUG') == true){
 }
 session_start();
 
+
 include __DIR__ . '/src/dependecies.php';
 include __DIR__ . '/src/routes.php';
+include __DIR__ . '/config.php';

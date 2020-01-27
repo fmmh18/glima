@@ -10,6 +10,10 @@ class Info
     public function index()
     {
         $infos = new infoModel;
-        return $infos->list_info();
+    }
+    public function detail_info()
+    {
+        $infos = new infoModel;
+        return $infos->detail_info();
     }
 }

@@ -15,7 +15,7 @@ class infoModel extends Model
 
     public function detail_info()
     {
-        return infoModel::where('status','=',1)->get();
+        return infoModel::first();
     }
 
 }

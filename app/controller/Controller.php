@@ -3,7 +3,7 @@ namespace app\controller;
 use framework\Router;
 
 abstract class Controller {
-    protected final function view(string $_name, array $vars = []) {
+    protected final static function view(string $_name, array $vars = []) {
         $_filename = __DIR__."/../view/{$_name}.php";
         if(!file_exists($_filename))
             die("View {$_name} not found!");
