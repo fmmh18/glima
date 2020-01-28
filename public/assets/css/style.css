@@ -49,6 +49,13 @@ ul, ol {
 }
 
 .carousel .carousel-item img {
-    max-height: 650px;
+    max-height: 500px;
     min-width: auto;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }

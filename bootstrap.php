@@ -1,5 +1,5 @@
 <?php
-
+ 
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -13,7 +13,6 @@ if(getenv('APP_DEBUG') == true){
     ini_set('display_errors', false);
 }
 session_start();
-
 
 include __DIR__ . '/src/dependecies.php';
 include __DIR__ . '/src/routes.php';

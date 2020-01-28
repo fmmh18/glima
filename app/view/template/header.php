@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="pt-BR">
   <head>
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title><?php echo getenv('APP_NAME'); ?></title>
@@ -31,7 +32,7 @@
       <img src="/assets/img/carousel/cuiaba.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/carousel/officce.jpg" class="d-block w-100" alt="...">
+      <img src="/assets/img/carousel/office.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="/assets/img/carousel/connect.jpg" class="d-block w-100" alt="...">
