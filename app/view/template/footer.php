@@ -36,8 +36,8 @@
       </footer>
       <div class="container p-3">
       <div class="row">
-        <div class="col-6" style="font-size:13px;color:#c4c4c4" style="padding-top:10px !important">© <?php echo date('Y'); ?> - Grupo <b><?php echo getenv("APP_NAME")?></b>.</div>
-        <div class="col-6 text-right" style="font-size:11px;color:#c4c4c4"><img src="<?php echo getenv('APP_DEV'); ?>" class="img"/> Desenvolvidor por <b>AFD Solution</b></div>
+        <div class="col-6" style="font-size:13px;color:#686868" style="padding-top:10px !important">© <?php echo date('Y'); ?> - Grupo <b><?php echo getenv("APP_NAME")?></b>.</div>
+        <div class="col-6 text-right" style="font-size:11px;color:#686868"><img src="<?php echo getenv('APP_DEV'); ?>" class="img"/> Desenvolvidor por <b>AFD Solution</b></div>
       </div>
       </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

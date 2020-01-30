@@ -21,21 +21,43 @@
   </div>
   </div>
   </header>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-shadow" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <?php 
+        $i = 0;
+        foreach($vars['carousels'] as $key):
+          if($i == 0):
+    ?>
+    <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $key; ?>" class="active"></li>
+    <?php
+          else:
+    ?>
+    <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $key; ?>"></li>
+    <?php
+      $i++;
+      endif;
+      endforeach;
+    ?>
   </ol>
   <div class="carousel-inner">
+  <?php 
+        $i = 0;
+        foreach($vars['carousels'] as $key => $value):
+          if($i == 0):
+    ?>
     <div class="carousel-item active">
-      <img src="/assets/img/carousel/cuiaba.jpg" class="d-block w-100" alt="...">
+      <img src="<?php echo $value['image']?>" class="d-block w-100" alt="<?php echo $value['description']?>" title="<?php echo $value['title']?>">
     </div>
+    <?php
+          else:
+    ?>
     <div class="carousel-item">
-      <img src="/assets/img/carousel/office.jpg" class="d-block w-100" alt="...">
+      <img src="<?php echo $value['image']?>" class="d-block w-100" alt="<?php echo $value['description']?>" title="<?php echo $value['title']?>">
     </div>
-    <div class="carousel-item">
-      <img src="/assets/img/carousel/connect.jpg" class="d-block w-100" alt="...">
-    </div>
+    <?php
+      $i++;
+      endif;
+      endforeach;
+    ?>
   </div>
 </div>
