@@ -11,7 +11,7 @@ $app->get("/",function(){
 });
 $app->get("/sobre",function(){
     echo "passou aqui!!!";exit;
-    return app\controller\Page::institucional();  
+   // return app\controller\Page::institucional();  
 });
 
 $app->run();

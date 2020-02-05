@@ -36,7 +36,7 @@ ul, ol {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .nav-list li a:before {
-    content: "\f14f";
+    content: "\f0c1";
     font: 400 21px/1 "Material Design Icons";
     color: #4d6de6;
     display: inline-block;
